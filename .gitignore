@@ -1,0 +1,23 @@
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.env
+
+# Node / React
+node_modules/
+dist/
+
+# Local database
+backend/transactions.db
+
+# Large datasets and generated training artifacts
+backend/PS_20174392719_1491204439457_log.csv
+backend/transactions_sample.csv
+backend/fraud_detector.joblib
+backend/evaluation_metrics.json
+backend/feature_importance.csv
+
+# Other
+.DS_Store
